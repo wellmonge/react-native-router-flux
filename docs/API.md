@@ -37,7 +37,7 @@ The basic routing component for this router, all `<Scene>` components require a 
 | `clone`     | `boolean` | `false` | Scenes marked with `clone` will be treated as templates and cloned into the current scene's parent when pushed. See example. |
 | `contentComponent`     | `React.Component` |  | Component used to render the content of the drawer (e.g. navigation items). |
 | `drawer`     | `boolean` | `false` | load child scenes inside [DrawerNavigator](https://reactnavigation.org/docs/navigators/drawer) |
-| `failure` | `Function` | | If `on` returns a "falsey" value then `failure` is called. |
+| `failure` | `Function` | | If `on` returns a "false" value then `failure` is called. |
 | `backTitle` | `string` |  | Specifies the back button title for scene |
 | `backButtonTextStyle` | `Style` |  | Style applied to back button text |
 | `rightTitle` | `string` |  | Specifies the right button title for scene |
